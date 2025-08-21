@@ -1,0 +1,47 @@
+.listing-card {
+    display: block;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease;
+  }
+  
+  .listing-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .listing-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .listing-card .card-content {
+    padding: 15px;
+  }
+  
+  .listing-card h3 {
+    margin: 0 0 5px;
+    font-size: 1.2em;
+  }
+  
+  .listing-card .city {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+  
+  .listing-card .price {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #2c3e50;
+  }
+  
+  .listing-card .rating {
+    font-size: 0.9em;
+    color: #f39c12;
+    margin-top: 5px;
+  }

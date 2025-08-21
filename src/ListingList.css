@@ -1,0 +1,23 @@
+.listing-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .search-bar {
+    margin-bottom: 30px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .listing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
