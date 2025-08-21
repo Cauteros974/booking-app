@@ -1,0 +1,77 @@
+.listing-details {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details-header {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .details-header img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .details-info {
+    flex-grow: 1;
+  }
+  
+  .details-info h1 {
+    margin: 0 0 10px;
+    font-size: 2.2em;
+  }
+  
+  .details-city {
+    color: #777;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+  
+  .details-rating {
+    font-size: 1.2em;
+    color: #f39c12;
+    margin-bottom: 15px;
+  }
+  
+  .details-price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .details-content {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .details-description {
+    flex: 2;
+  }
+  
+  .details-description h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+  
+  .booking-section {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .booking-section h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+  }
