@@ -1,7 +1,7 @@
 export const listing = [
     {
         id: 1,
-        title: 'Cozy studio in the center',
+        title: 'Comfortable studio in the center',
         prise: 5000,
         rating: 4.8,
         image: '',
